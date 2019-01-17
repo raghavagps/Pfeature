@@ -1,0 +1,11 @@
+Positively charged_rest,Negatively charged_rest,Neutral charged_rest,Polarity_rest,Non polarity_rest,Aliphaticity_rest,Cyclic_rest,Aromaticity_rest,Acidicity_rest,Basicity_rest,Neutral (ph)_rest,Hydrophobicity_rest,Hydrophilicity_rest,Neutral_rest,Hydroxylic_rest,Sulphur content_rest,Secondary Structure(Helix)_rest,Secondary Structure(Strands)_rest,Secondary Structure(Coil)_rest,Solvent Accessibilty (Buried)_rest,Solvent Accesibilty(Exposed)_rest,Solvent Accesibilty(Intermediate)_rest,Tiny_rest,Small_rest,Large_rest
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,1.0,1.0,1.0,0,0,0,0,0,1.0,0,1.0,1.0,0,1.0,0,1.0,1.0,0,1.0,0,0,0
+1.0,0,1.0,0,1.0,0,0,0,0,1.0,1.0,1.0,1.0,0,0,1.0,0,0,0,0,0,0,0,0,0
+1.0,0,1.0,0,1.0,1.0,0,0,0,1.0,1.0,1.0,1.0,0,0,0,1.0,1.0,0,1.0,1.0,0,0,1.0,1.0
+0,1.0,1.0,0,0,0,0,0,1.0,0,1.0,0,1.0,1.0,0,0,1.0,0,1.0,0,0,0,0,1.0,1.0
+0,0,0,1.0,0,0,0,0,0,0,0,0,1.0,1.0,0,0,1.0,0,1.0,0,0,0,0,1.0,1.0
+0,0,0,1.0,1.0,0,0,0,0,0,0,1.0,0,0,0,0,0,0,0,1.0,0,1.0,0,0,0
+0,0,0,1.0,1.0,0,0,1.0,0,0,0,1.0,0,1.0,0,0,1.0,1.0,0,1.0,1.0,0,0,0,0
+1.0,0,1.0,0,1.0,1.0,0,0,0,1.0,1.0,1.0,1.0,0,0,0,0,0,0,1.0,1.0,0,1.0,1.0,1.0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
