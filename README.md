@@ -7,6 +7,12 @@ We have developed number of isofoms of Pfeature that includes: i) A web server h
 The prerequisite to run the python library is pandas, numpy and python version above 3.6<br>
 pandas can be installed using following command: pip3 install pandas<br>
 numpy can be installed using following command: pip3 install numpy<br>
+### Install of Pfeature library
+It has been tested on wide range of platforms that include Apple MAC, Windows and Linux (Ubuntu). After installing pandas and numbpy user can install using following commands<br>
+1) Download Pfeature from https://github.com/raghavagps/Pfeature/blob/master/PyLib/Pfeature.zip 
+2) Extract or uncompress Pfeature.zip
+3) cd Prefature
+4) python setup.py install
 
 ## Installation of Standalone (executables)
 The prerequisite to run the standalone is pandas, numpy and python version above 3.6.<br>
