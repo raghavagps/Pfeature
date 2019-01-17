@@ -23,12 +23,12 @@ on Windows<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 for All<br/>
           
  On Mac<br/>
-   (1) Download pfeature_mac.zip<br/>
-   (2) Uncompress pfeature_win.zip file<br/>
-   (3) cd pfeature_win<br/>
-   (4) run ./pfeature -i inputfile -o outputfile -m method<br/>
-       where the methods could be as follows:<br/>
-          1 for Composition<br/>
-          2 for Binary profiles<br/>
-          3 for All<br/>
+ &nbsp;&nbsp;(1) Download pfeature_mac.zip<br/>
+ &nbsp;&nbsp;(2) Uncompress pfeature_win.zip file<br/>
+ &nbsp;&nbsp;(3) cd pfeature_win<br/>
+ &nbsp;&nbsp;(4) run ./pfeature -i inputfile -o outputfile -m method<br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where the methods could be as follows:<br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 for Composition<br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 for Binary profiles<br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 for All<br/>
 
