@@ -4,14 +4,14 @@ Pfeature is a comprehensive software developed for computing wide range of prote
 We have developed number of isofoms of Pfeature that includes: i) A web server has been developed that uses Pfeature functions via web interface from https://webs.iiitd.edu.in/raghava/pfeature/ ; ii) Standalone version of Pfeature; iii) Library of python for Pfeature and iv) Python scripts for computing features. 
 ## Installation of Python Library
 ### Prerequest
-The prerequisite to run the python library is pandas, numpy and python version above 3.6
-pandas can be installed using following command: pip3 install pandas
-numpy can be installed using following command: pip3 install numpy
+The prerequisite to run the python library is pandas, numpy and python version above 3.6<br>
+pandas can be installed using following command: pip3 install pandas<br>
+numpy can be installed using following command: pip3 install numpy<br>
 
 ## Installation of Standalone (executables)
-The prerequisite to run the standalone is pandas, numpy and python version above 3.6.<br/>
-If pandas is not already installed, install it with command : pip3 install pandas<br/>
-If numpy is not already installed, install it with command : pip3 install numpy<br/>
+The prerequisite to run the standalone is pandas, numpy and python version above 3.6.<br>
+If pandas is not already installed, install it with command : pip3 install pandas<br>
+If numpy is not already installed, install it with command : pip3 install numpy<br>
 
 Install Pfeature<br/>
 
