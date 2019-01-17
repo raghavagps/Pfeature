@@ -17,7 +17,7 @@ on Windows<br/>
 &nbsp;&nbsp;(2) Uncompress pfeature_win.zip file<br/>
 &nbsp;&nbsp;(3) cd pfeature_win<br/>
 &nbsp;&nbsp;(4) run pfeature.exe -i inputfile -o outputfile -m method<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;where the methods could be as follows:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where the methods could be as follows:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 for Composition<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 for Binary profiles<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 for All<br/>
