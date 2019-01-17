@@ -4,4 +4,29 @@ Pfeature is a comprehensive software developed for computing wide range of prote
 We have developed number of isofoms of Pfeature that includes: i) A web server has been developed that uses Pfeature functions via web interface from https://webs.iiitd.edu.in/raghava/pfeature/ ; ii) Standalone version of Pfeature; iii) Library of python for Pfeature and iv) Python scripts for computing features. 
 ## Installation of Python Library
 ## Installation of Standalone (executables)
+The prerequisite to run the standalone is pandas, numpy and python version above 3.6.
+If pandas is not already installed, install it with command : pip3 install pandas
+If numpy is not already installed, install it with command : pip3 install numpy
+
+Install Pfeature
+
+on Windows
+(1) Download pfeature_win.zip
+(2) Uncompress pfeature_win.zip file
+(3) cd pfeature_win
+(4) run pfeature.exe -i inputfile -o outputfile -m method
+    where the methods could be as follows:
+          1 for Composition
+          2 for Binary profiles
+          3 for All
+          
+ On Mac
+ (1) Download pfeature_mac.zip
+ (2) Uncompress pfeature_win.zip file
+ (3) cd pfeature_win
+ (4) run ./pfeature -i inputfile -o outputfile -m method
+    where the methods could be as follows:
+          1 for Composition
+          2 for Binary profiles
+          3 for All
 
