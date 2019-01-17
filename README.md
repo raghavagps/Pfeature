@@ -3,11 +3,14 @@
 Pfeature is a comprehensive software developed for computing wide range of protein/discovered features that have been discovered over the past decades. It has following four major modules for computing protein features based on; i) Composition, ii) Binary profiles, iii) Evolutionary information and iv) Structure.  The composition based module allows user to compute; i) Simple compositions like amino acid, dipeptide, tripeptide; ii) Physicochemical properties based compositions; iii) Repeats and distribution of amino acids; iv) Shannon entropy to measure the low complexity regions; iv) Miscellaneous compositions like pseudo amino acid, autocorrelation, conjoint triad, quasi-sequence order. Binary profile of amino acid sequence provides complete information including order of residues or type of residues, which is not possible with composition based features. Thus, binary profile can be used to annotate protein at residue level. It is well established in literature that sequence profile based on evolutionary information provides more information then sequence itself.
 We have developed number of isofoms of Pfeature that includes: i) A web server has been developed that uses Pfeature functions via web interface from https://webs.iiitd.edu.in/raghava/pfeature/ ; ii) Standalone version of Pfeature; iii) Library of python for Pfeature and iv) Python scripts for computing features. 
 ## Installation of Python Library
+### Prerequest
+The prerequisite to run the python library is pandas, numpy and python version above 3.6
+pandas can be installed using following command: pip3 install pandas
+numpy can be installed using following command: pip3 install numpy
+
 ## Installation of Standalone (executables)
 The prerequisite to run the standalone is pandas, numpy and python version above 3.6.<br/>
-
 If pandas is not already installed, install it with command : pip3 install pandas<br/>
-
 If numpy is not already installed, install it with command : pip3 install numpy<br/>
 
 Install Pfeature<br/>
