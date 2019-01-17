@@ -19,8 +19,8 @@ on Windows<br/>
 &nbsp;&nbsp;(4) run pfeature.exe -i inputfile -o outputfile -m method<br/>
 &nbsp;&nbsp;&nbsp;where the methods could be as follows:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;1 for Composition<br/>
-&nbsp;&nbsp;&nbsp;&npsp;2 for Binary profiles<br/>
-&nbsp;&nbsp;&nbsp;&npsp;3 for All<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;2 for Binary profiles<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;3 for All<br/>
           
  On Mac<br/>
    (1) Download pfeature_mac.zip<br/>
