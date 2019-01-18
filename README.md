@@ -7,7 +7,7 @@ A web server for computing wide range of protein and peptides features from thei
 #### Available from URL: https://webs.iiitd.edu.in/raghava/pfeature/
 
 ## Installation of Pfeature Library
-### Prerequest
+### Prerequisite
 The prerequisite to run the python library is pandas, numpy and python version above 3.6<br>
 pandas can be installed using following command: pip3 install pandas<br>
 numpy can be installed using following command: pip3 install numpy<br>
