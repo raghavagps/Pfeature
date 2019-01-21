@@ -5,9 +5,9 @@ Pfeature is a comprehensive software developed for computing wide range of prote
  
 We have developed number of isoforms of Pfeature that include: i) A web server that uses Pfeature functions via web interface from https://webs.iiitd.edu.in/raghava/pfeature/ ; ii) Standalone version of Pfeature; iii) Library of python for Pfeature and iv) Python scripts for computing features. 
 ## Documentation
-One can read more about subroutines developed under Pfeature to compute wide range of proteins and peptide faturtes from https://github.com/raghavagps/Pfeature/blob/master/Pfeature_Man.pdf . Further information is available from help page of web site https://webs.iiitd.edu.in/raghava/pfeature/help.php 
+One can read more about subroutines developed under Pfeature to compute wide range of proteins and peptide features from https://github.com/raghavagps/Pfeature/blob/master/Pfeature_Man.pdf . Further information is available from help page of web site https://webs.iiitd.edu.in/raghava/pfeature/help.php 
 ## Web Service for Pfeature
-A web server for computing wide range of protein and peptides features from their amino acid sequence. Following are main menus for computing features; i) Composition-based features, ii) Binary profile of sequences, iii) evolutionary information based features, iv) structural descriptors,and v) pattern based descriptors, for a group of protein/peptide sequences. Additionally, users will also be able to generate these features for sub-parts of protein/peptide sequences. Pfeature be helpful to annotate structure, function and therapeutic properties of proteins/peptides.
+A web server for computing wide range of protein and peptides features from their amino acid sequences. Following are main menus for computing features; i) Composition-based features, ii) Binary profile of sequences, iii) evolutionary information based features, iv) structural descriptors,and v) pattern based descriptors, for a group of protein/peptide sequences. Additionally, users will also be able to generate these features for sub-parts of protein/peptide sequences. Pfeature will be helpful to annotate structure, function and therapeutic properties of proteins/peptides.
 #### Available from URL: https://webs.iiitd.edu.in/raghava/pfeature/
 
 ## Installation of Pfeature Library
