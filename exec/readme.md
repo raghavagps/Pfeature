@@ -1,4 +1,4 @@
-### Standalone Package of Pfeature 
+# Standalone Package of Pfeature 
 Introduction: Pfeature is a standalone software package for computing wide range of protein and peptides features from their amino acid 
 sequence.  It has the following five major modules for computing protein features based on; i) Composition, ii) Binary profiles, 
 iii) Evolutionary information iv) Structure and v) Pattern.  We have developed number of forms of Pfeature that include: i) A web server 
@@ -9,43 +9,43 @@ This is a standalone version of Pfeature (executables), we have generate executa
 
 ## Installation
 Installation of Pfeature is simple as executables are available for  different operating systems (Windows, Ubuntu, Mac, Fedora, Centos). Following are main steps to install Pfeatures on different operating systems.
-# Microsoft Windows: 
+### Microsoft Windows: 
 1.	Download Pfeature_win.zip  from https://github.com/raghavagps/Pfeature/tree/master/exec/PFeature_win.zip
 2.	unzip Pfeature_win.zip
 3.	change directory to Pfeature_win
 4.	Run the command: pfeature_win.exe -i <input_file> -o <output_file> -m <options>
-# Apple Mac:
+### Apple Mac:
 1.	Download Pfeature_mac.zip  from https://github.com/raghavagps/Pfeature/tree/master/exec/PFeature_mac.zip
 2.	unzip Pfeature_mac.zip
 3.	change directory to Pfeature_mac
 4.	Run the command: pfeature_mac -i <input_file> -o <output_file> -m <options>
-# Ubuntu:
+### Ubuntu:
 1.	Download Pfeature_ubuntu.zip  from https://github.com/raghavagps/Pfeature/tree/master/exec/PFeature_ubuntu.zip
 2.	unzip Pfeature_ubuntu.zip
 3.	change directory to Pfeature_ubuntu
 4.	Run the command: pfeature_ubuntu -i <input_file> -o <output_file> -m <options>
-# Fedora:
+### Fedora:
 1.	Download Pfeature_fedora.zip  from https://github.com/raghavagps/Pfeature/tree/master/exec/PFeature_fedora.zip
 2.	unzip Pfeature_fedora.zip
 3.	change directory to Pfeature_fedora
 4.	Run the command: pfeature_fedora -i <input_file> -o <output_file> -m <options>
-# On Centos:
+### On Centos:
 1.	Download Pfeature_cantos.zip  from https://github.com/raghavagps/Pfeature/tree/master/exec/PFeature_centos.zip
 2.	unzip Pfeature_centos.zip
 3.	change directory to Pfeature_centos
 4.	Run the command: pfeature_centos -i <input_file> -o <output_file> -m <options>
 ## Folders & Files
 Following is brief description of folders/files in folder Pfeature_OS.
-Data: This folder contain csv files for different parameters required to run Pfeature
-example.seq : It is an example input file contain sequence of peptides (one sequence per line) 
-example.out: An example output file corresponding to example.seq
-Features_Table.pdf : File provides description of features in different columns in output file
-lib: contain libraries required for package
-pfeature_os : Executable file, where os is operating system like win, mac, ubuntu .
-README : This file
+#### Data: This folder contain csv files for different parameters required to run Pfeature
+#### example.seq : It is an example input file contain sequence of peptides (one sequence per line) 
+#### example.out: An example output file corresponding to example.seq
+#### Features_Table.pdf : File provides description of features in different columns in output file
+#### lib: contain libraries required for package
+#### pfeature_os : Executable file, where os is operating system like win, mac, ubuntu .
+#### README : This file
 
-Commands for running Pfeature
-exec –i <input_file> -o <output_file> -m <options>
+## Commands for running Pfeature
+#### exec –i <input_file> -o <output_file> -m <options>
 where, 
 •	exec:  executable depending on the OS (e.g., pfeature_ubuntu, pfeature_mac)                           
 •	input_file: file contain sequence of peptides/proteins 
@@ -55,4 +55,4 @@ where,
 2 for Autocorrelation features 
 3 for Binary pofile 
 4 for all features
-For more type exec –-help or exec –h
+#### For more type exec –-help or exec –h
