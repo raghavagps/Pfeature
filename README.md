@@ -25,3 +25,4 @@ It has been tested on wide range of platforms that include Apple MAC, Windows an
 ## Installation of Pfeature Executables
 In order to facilitate users, we created a single program of Pfeature which computes all possible descriptors for a protein/peptide sequence. We converted Python program in "C++" using Cython then "C++" codes are compiled to create executables. Pfeature executables have been created for number of platforms/operating systems like Apple MAC, Windows, Linux. 
  
+ For detail visit https://github.com/raghavagps/Pfeature/blob/master/exec/readme.md 
