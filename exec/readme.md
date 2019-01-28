@@ -7,38 +7,34 @@ iii) Library of python for Pfeature and iv) Python scripts for computing feature
 
 This is a standalone version of Pfeature (executables), we have generate executables of Pfeature that can be executed on different platform. 
 
-Installation
+## Installation
 Installation of Pfeature is simple as executables are available for  different operating systems (Windows, Ubuntu, Mac, Fedora, Centos). Following are main steps to install Pfeatures on different operating systems.
-Microsoft Windows: 
+# Microsoft Windows: 
 1.	Download Pfeature_win.zip  from https://github.com/raghavagps/Pfeature/tree/master/exec/PFeature_win.zip
 2.	unzip Pfeature_win.zip
 3.	change directory to Pfeature_win
 4.	Run the command: pfeature_win.exe -i <input_file> -o <output_file> -m <options>
-On MacOs:
+# Apple Mac:
 1.	Download Pfeature_mac.zip  from https://github.com/raghavagps/Pfeature/tree/master/exec/PFeature_mac.zip
 2.	unzip Pfeature_mac.zip
 3.	change directory to Pfeature_mac
 4.	Run the command: pfeature_mac -i <input_file> -o <output_file> -m <options>
-On Ubuntu:
+# Ubuntu:
 1.	Download Pfeature_ubuntu.zip  from https://github.com/raghavagps/Pfeature/tree/master/exec/PFeature_ubuntu.zip
 2.	unzip Pfeature_ubuntu.zip
 3.	change directory to Pfeature_ubuntu
 4.	Run the command: pfeature_ubuntu -i <input_file> -o <output_file> -m <options>
-
-On Fedora:
+# Fedora:
 1.	Download Pfeature_fedora.zip  from https://github.com/raghavagps/Pfeature/tree/master/exec/PFeature_fedora.zip
 2.	unzip Pfeature_fedora.zip
 3.	change directory to Pfeature_fedora
 4.	Run the command: pfeature_fedora -i <input_file> -o <output_file> -m <options>
-
-
-On Centos:
-
+# On Centos:
 1.	Download Pfeature_cantos.zip  from https://github.com/raghavagps/Pfeature/tree/master/exec/PFeature_centos.zip
 2.	unzip Pfeature_centos.zip
 3.	change directory to Pfeature_centos
 4.	Run the command: pfeature_centos -i <input_file> -o <output_file> -m <options>
-Folders & Files
+## Folders & Files
 Following is brief description of folders/files in folder Pfeature_OS.
 Data: This folder contain csv files for different parameters required to run Pfeature
 example.seq : It is an example input file contain sequence of peptides (one sequence per line) 
