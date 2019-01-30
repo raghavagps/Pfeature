@@ -31,7 +31,7 @@ If numpy is not already installed, install it with command :
 
 # Install Pfeature<br/>
 
-## on Windows<br/>
+## On Windows<br/>
 &nbsp;&nbsp;(1) Download pfeature_win.zip<br/>
 &nbsp;&nbsp;(2) Uncompress pfeature_win.zip file<br/>
 &nbsp;&nbsp;(3) ```cd pfeature_win```<br/>
