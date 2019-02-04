@@ -11,7 +11,7 @@ This is a standalone version of Pfeature (executables), we have generate executa
 ### Installation
 Installation of Pfeature is simple as executables are available for  different operating systems (Windows, Ubuntu, Mac, Fedora, Centos). Following are main steps to install Pfeatures on different operating systems.
 <br>
-#### Microsoft Windows: 
+#### On Microsoft Windows: 
 1.	Download Pfeature_win.zip  from https://github.com/raghavagps/Pfeature/tree/master/exec/PFeature_win.zip
 2.	unzip Pfeature_win.zip
 3.	change directory to Pfeature_win
