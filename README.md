@@ -21,7 +21,7 @@ pandas can be installed using following command: pip3 install pandas
 numpy can be installed using following command: pip3 install numpy
 
 ### Steps for setting library
-It has been tested on wide range of platforms that include Apple MAC, Windows and Linux (Ubuntu,Fedora). After installing pandas and numbpy user can install using following commands
+It has been tested on wide range of platforms that include Apple MAC, Windows and Linux (Ubuntu,Fedora). After installing pandas and numbpy user can install using following commands<br>
 
 1.Download Pfeature from https://github.com/raghavagps/Pfeature/blob/master/PyLib/Pfeature.zip <br>
 2. Extract or uncompress Pfeature.zip <br>
