@@ -48,10 +48,11 @@ example.out: An example output file corresponding to example.seq <br>
 Features_Table.pdf : File provides description of features in different columns in output file <br>
 lib: contain libraries required for package <br>
 pfeature_os : Executable file, where os is operating system like win, mac, ubuntu <br> .
-README : This file
+README : This file <br>
 
 Commands for running Pfeature <br>
 exec –i <input_file> -o <output_file> -m <options> <br>
+  
 where, <br>  
 •	exec:  executable depending on the OS (e.g., pfeature_ubuntu, pfeature_mac) <br>                           
 •	input_file: file contain sequence of peptides/proteins <br> 
