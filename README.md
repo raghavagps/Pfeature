@@ -1,6 +1,6 @@
-#Pfeature: Computation of features of peptides and proteins#
+**Pfeature: Computation of features of peptides and proteins**
 <br>
-##Introduction##
+**Introduction**
 <br>
 Pfeature is a comprehensive software developed for computing wide range of protein/peptide features that have been discovered over the past decades. It has the following five major modules for computing protein features based on; i) Composition, ii) Binary profiles, iii) Evolutionary information iv) Structure and v) Pattern. The composition based module allows user to compute; i) Simple compositions like amino acid, dipeptide, tripeptide; ii) Physicochemical properties based compositions; iii) Repeats and distribution of amino acids; iv) Shannon entropy to measure the low complexity regions; iv) Miscellaneous compositions like pseudo amino acid, autocorrelation, conjoint triad, quasi-sequence order. Binary profile of amino acid sequence provides complete information including order of residues or type of residues, which is not possible with composition based features. Thus, binary profile can be used to annotate protein at residue level. It is well established in literature that sequence profile based on evolutionary information provides more information then sequence itself.
 
@@ -28,10 +28,11 @@ numpy can be installed using following command: pip3 install numpy
 <br>
 It has been tested on wide range of platforms that include Apple MAC, Windows and Linux (Ubuntu,Fedora). After installing pandas and numbpy user can install using following commands
 
-Download Pfeature from https://github.com/raghavagps/Pfeature/blob/master/PyLib/Pfeature.zip
-Extract or uncompress Pfeature.zip
-cd Pfeature
-python setup.py install
+1.Download Pfeature from https://github.com/raghavagps/Pfeature/blob/master/PyLib/Pfeature.zip <br>
+2. Extract or uncompress Pfeature.zip <br>
+3. cd Pfeature <br>
+4. python setup.py install <br>
+<br>
 **Installation of Pfeature Executables**
 <br>
 In order to facilitate users, we created a single program of Pfeature which computes all possible descriptors for a protein/peptide sequence. We converted Python program in "C++" using Cython then "C++" codes are compiled to create executables. Pfeature executables have been created for number of platforms/operating systems like Apple MAC, Windows, Linux.
