@@ -9,35 +9,36 @@ This is a standalone version of Pfeature (executables), we have generate executa
 
 Installation
 Installation of Pfeature is simple as executables are available for  different operating systems (Windows, Ubuntu, Mac, Fedora, Centos). Following are main steps to install Pfeatures on different operating systems.
+<br>
 Microsoft Windows: 
 1.	Download Pfeature_win.zip  from https://github.com/raghavagps/Pfeature/tree/master/exec/PFeature_win.zip
 2.	unzip Pfeature_win.zip
 3.	change directory to Pfeature_win
 4.	Run the command: pfeature_win.exe -i <input_file> -o <output_file> -m <options>
 <br>  
-On MacOs:
-1.	Download Pfeature_mac.zip  from https://github.com/raghavagps/Pfeature/tree/master/exec/PFeature_mac.zip
-2.	unzip Pfeature_mac.zip
-3.	change directory to Pfeature_mac
-4.	Run the command: pfeature_mac -i <input_file> -o <output_file> -m <options>
+On MacOs:<br>
+1.	Download Pfeature_mac.zip  from https://github.com/raghavagps/Pfeature/tree/master/exec/PFeature_mac.zip <br>
+2.	unzip Pfeature_mac.zip <br>
+3.	change directory to Pfeature_mac <br>
+4.	Run the command: ./pfeature_mac -i <input_file> -o <output_file> -m <options> <br>
 <br>  
-On Ubuntu:
-1.	Download Pfeature_ubuntu.zip  from https://github.com/raghavagps/Pfeature/tree/master/exec/PFeature_ubuntu.zip
-2.	unzip Pfeature_ubuntu.zip
-3.	change directory to Pfeature_ubuntu
-4.	Run the command: pfeature_ubuntu -i <input_file> -o <output_file> -m <options>
+On Ubuntu:<br>
+1.	Download Pfeature_ubuntu.zip  from https://github.com/raghavagps/Pfeature/tree/master/exec/PFeature_ubuntu.zip <br>
+2.	unzip Pfeature_ubuntu.zip <br>
+3.	change directory to Pfeature_ubuntu <br>
+4.	Run the command: ./pfeature_ubuntu -i <input_file> -o <output_file> -m <options> <br>
 <br>
-On Fedora:
-1.	Download Pfeature_fedora.zip  from https://github.com/raghavagps/Pfeature/tree/master/exec/PFeature_fedora.zip
-2.	unzip Pfeature_fedora.zip
-3.	change directory to Pfeature_fedora
-4.	Run the command: pfeature_fedora -i <input_file> -o <output_file> -m <options>
+On Fedora:<br>
+1.	Download Pfeature_fedora.zip  from https://github.com/raghavagps/Pfeature/tree/master/exec/PFeature_fedora.zip <br>
+2.	unzip Pfeature_fedora.zip <br>
+3.	change directory to Pfeature_fedora <br>
+4.	Run the command: ./pfeature_fedora -i <input_file> -o <output_file> -m <options> <br>
 <br>
-On Centos:
-1.	Download Pfeature_cantos.zip  from https://github.com/raghavagps/Pfeature/tree/master/exec/PFeature_centos.zip
-2.	unzip Pfeature_centos.zip
-3.	change directory to Pfeature_centos
-4.	Run the command: pfeature_centos -i <input_file> -o <output_file> -m <options>
+On Centos: <br>
+1.	Download Pfeature_cantos.zip  from https://github.com/raghavagps/Pfeature/tree/master/exec/PFeature_centos.zip <br>
+2.	unzip Pfeature_centos.zip <br>
+3.	change directory to Pfeature_centos <br>
+4.	Run the command: ./pfeature_centos -i <input_file> -o <output_file> -m <options> <br>
 Folders & Files
 Following is brief description of folders/files in folder Pfeature_OS.
 Data: This folder contain csv files for different parameters required to run Pfeature
