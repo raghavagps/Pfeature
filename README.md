@@ -20,7 +20,7 @@ The prerequisite to run the python library is pandas, numpy and python version a
 pandas can be installed using following command: pip3 install pandas
 numpy can be installed using following command: pip3 install numpy
 
-### Steps for setting library
+#### Steps for setting library
 It has been tested on wide range of platforms that include Apple MAC, Windows and Linux (Ubuntu,Fedora). After installing pandas and numbpy user can install using following commands
 
 1.Download Pfeature from https://github.com/raghavagps/Pfeature/blob/master/PyLib/Pfeature.zip <br>
