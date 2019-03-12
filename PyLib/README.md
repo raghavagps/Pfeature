@@ -7,7 +7,7 @@ Pfeature is a standalone software package for computing wide range of protein an
 
 INSTALL<br />
 ---------------
-Installation of Pfeature is simple as explained below:.
+Installation of Pfeature is simple as explained below:
 
 On Microsoft Windows:
 1. Download Pfeature.zip  from https://github.com/raghavagps/Pfeature/blob/master/PyLib/Pfeature.zip
