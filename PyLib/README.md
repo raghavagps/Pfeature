@@ -9,14 +9,13 @@ INSTALL<br />
 ---------------
 Installation of Pfeature is simple as explained below:.
 
-###On Microsoft Windows:
+On Microsoft Windows:
 1. Download Pfeature.zip  from https://github.com/raghavagps/Pfeature/blob/master/PyLib/Pfeature.zip
 2. extract or uncompress the Pfeature.zip
 3. change directory to Pfeature
 4. Run the command: python3 setup.py install
 
 On Mac/Linux:
------------------
 1. Download Pfeature.zip  from https://github.com/raghavagps/Pfeature/blob/master/PyLib/Pfeature.zip
 2. unzip the Pfeature.zip
 3. change directory to Pfeature
