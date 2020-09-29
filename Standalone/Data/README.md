@@ -5,7 +5,6 @@ sequence. It has the following five major modules for computing protein features
 ####
 <ul>
   <li>
-    <ol start>
       <li>Composition</li>
       <li>Binary profiles</li>
     </ol>
