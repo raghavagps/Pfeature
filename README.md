@@ -28,7 +28,7 @@ It has been tested on wide range of platforms that include Apple MAC, Windows an
 3. cd Pfeature <br>
 4. python setup.py install <br>
 
-## Installation of Pfeature Standalone
+## Standalone Package of Pfeature
 In order to facilitate users, we created a single program of Pfeature which computes individual as well as, all possible descriptors for a protein/peptide sequence. 
 It has been tested on wide range of platforms that include Apple MAC, Windows and Linux (Ubuntu,Fedora). After installing pandas and numpy user can install using following commands<br>
 
