@@ -4,7 +4,11 @@ Pfeature is developed for computing wide range of protein and peptides features 
   - pfeature_comp.py
   - pfeature_bin.py
   - pfeature_pssm.py
-
+  
+  - Minimum USAGE
+```sh
+Minimum ussage is "pfeature_comp.py -i protein.fa" where protein.fa is a input fasta file. This will calculate the amino acid composition of the seqeunces provided in the fasta file. It will use other parameters by default. It will save output in "pfeature_result.csv" in CSV (comma seperated variables).
+ ```
 
 ## Pfeature Package Files
 It contantain following files, brief description of these files are given below:
