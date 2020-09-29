@@ -19,11 +19,11 @@ Following output will be generated on running python "pfeature_bin.py -h" comman
 
 ### Parameters Description
 ```sh
-* `Input File`: It allow users to provide input in two format:<br>
-                i.  FASTA format (standard) (e.g. protein.fa)<br>
+Input File: It allow users to provide input in two format:
+                i.  FASTA format (standard) (e.g. protein.fa)
                 ii.  Simple Format, file should have sequences in a single line in single letter code (eg. protein.seq).
 
-* ``Output File``: Program will save result in CSV format, in the provided filename.
+Output File: Program will save result in CSV format, in the provided filename.
                 If user do not provide output file name, it will be stored in pfeature_results.csv.
                 In case user want to calculate all the features except ATB and BTB, the job name will be 'ALLBIN'. Reason to leave ATB and BTB is, the number of atoms and bonds are not equal in all amino acid residues.
 
