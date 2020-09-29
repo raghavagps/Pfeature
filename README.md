@@ -21,12 +21,17 @@ pandas can be installed using following command: pip3 install pandas
 numpy can be installed using following command: pip3 install numpy
 
 ### Steps for setting library
-It has been tested on wide range of platforms that include Apple MAC, Windows and Linux (Ubuntu,Fedora). After installing pandas and numbpy user can install using following commands<br>
+It has been tested on wide range of platforms that include Apple MAC, Windows and Linux (Ubuntu,Fedora). After installing pandas and numpy user can install using following commands<br>
 
 1. Download Pfeature from https://github.com/raghavagps/Pfeature/blob/master/PyLib/Pfeature.zip <br>
 2. Extract or uncompress Pfeature.zip <br>
 3. cd Pfeature <br>
 4. python setup.py install <br>
 
-## Installation of Pfeature Executables
-In order to facilitate users, we created a single program of Pfeature which computes all possible descriptors for a protein/peptide sequence. We converted Python program in "C++" using Cython then "C++" codes are compiled to create executables. Pfeature executables have been created for number of platforms/operating systems like Apple MAC, Windows, Linux.
+## Installation of Pfeature Standalone
+In order to facilitate users, we created a single program of Pfeature which computes individual as well as, all possible descriptors for a protein/peptide sequence. 
+It has been tested on wide range of platforms that include Apple MAC, Windows and Linux (Ubuntu,Fedora). After installing pandas and numpy user can install using following commands<br>
+
+1. Download Pfeature from https://github.com/raghavagps/Pfeature/blob/master/Standalone/pfeature_standalone.zip <br>
+2. Extract or uncompress pfeature_standalone.zip <br>
+3. cd pfeature_standalone <br>
