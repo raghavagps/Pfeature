@@ -24,7 +24,7 @@ Input File: It allow users to provide input in two format:
                 ii) Simple Format, file should have sequences in a single line in single letter code (eg. protein.seq).
 
 Output File: Program will save result in CSV format, in the provided filename.
-                If user don\'t provide output file name, it will be stored in pfeature_results.csv.
+                If user do not provide output file name, it will be stored in pfeature_results.csv.
                 In case user want to calculate all the features except ATB and BTB, the job name will be 'ALLBIN'. Reason to leave ATB and BTB is, the number of atoms and bonds are not equal in all amino acid residues.
 
 Job name: It allows users to choose the type of composition, the user want to calculate, such as AAB which stands for Amino Acid based binary profile.
