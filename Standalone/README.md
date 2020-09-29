@@ -2,9 +2,9 @@
 ## Introduction
 Pfeature is developed for computing wide range of protein and peptides features from their amino acid sequences. More information on Pfeature is available from its web server https://webs.iiitd.edu.in/raghava/pfeature. This page provide information about standalone version of Pfeature. This standalone contains three scripts, their description is as follows:
 <ul>
-      <li>pfeature_comp.py</li>
-      <li>pfeature_bin.py</li>
-      <li>pfeature_pssm.py</li>
+      ##<li>pfeature_comp.py</li>
+      ##<li>pfeature_bin.py</li>
+      ##<li>pfeature_pssm.py</li>
 </ul>
 
 
