@@ -17,6 +17,34 @@ python pfeature_pssm.py -h
 Following output will be generated on running python "pfeature_bin.py -h" command:<br>
 ![Screenshot](Screenshot.png)
 
+### Parameters Description
+```sh
+Input File: It allow users to provide input in two format;
+                i) FASTA format (standard) (e.g. protein.fa)
+                ii) Simple Format, in this case, file should have sequences in a single line in single letter code (eg. protein.seq).
+
+Output File: Program will save result in CSV format, in the provided filename.
+                In case user do not provide output file name, it will be stored in pfeature_results.csv.
+                In case user want to calculate all the features except ATB and BTB, the job name will be 'ALLBIN'. Reason to leave ATB and BTB is, the number of atoms and bonds are not equal in all amino acid residues.
+
+Job name: It allows users to choose the type of composition, the user want to calculate, such as AAB which stands for Amino Acid based binary profile.
+                In case user do not provide any job name, it will choose AAB by default.
+
+N-terminal: It allows user to cut the specific number of residues from the N-terminal of the sequences.
+
+
+C-terminal: It allows user to cut the specific number of residues from the C-terminal of the sequences.
+
+NCT-terminal: It allows user to cut the specific number of residues from the N- and C-terminal of the sequences, and join them.
+
+Rest_N : It allow users to drop the specific number of residues from N-terminal, and perform operations on the rest.
+
+Rest_C : It allow users to drop the specific number of residues from C-terminal, and perform operations on the rest.
+
+Split: It allow users to divided the sequence into number of sequences.
+
+Lag : It defines the value for order of dipeptide, to calculate the dipeptide based binary profiles.
+```
   
 ## Minimum Usage Usage
 To learn about the full usage, run the following command:
