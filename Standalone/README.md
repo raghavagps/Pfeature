@@ -14,6 +14,7 @@ python pfeature_bin.py -h
 OR
 python pfeature_pssm.py -h
 ```
+Following output will be generated on running python "pfeature_bin.py -h" command:
 ![Screenshot](Screenshot.png)
 
 ## Pfeature Package Files
