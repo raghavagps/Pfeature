@@ -1,0 +1,13 @@
+1. Pre-requisite
+==========
+In order to run this program user should have Python3, and scikit-learn library.
+
+2. Command line
+================
+In order to know the arguments of any script, please run the following command:
+	i. For Composition based features
+		python pfeature_comp.py -h
+        i. For Binary profile  based features
+                python pfeature_bin.py -h
+        i. For PSSM profile based features
+                python pfeature_pssm.py -h

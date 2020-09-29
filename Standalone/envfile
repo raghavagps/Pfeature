@@ -1,0 +1,5 @@
+#Path information for the generation of PSSM profile
+#User can change the paths according to their machines
+BLASTPGP:/home/gpsr/software/blastpr/blastpgp
+BLAST database:/usr1/software/blastpr/data/swissprot
+MAKEMAT:/home/gpsr/software/blastpr/makemat
