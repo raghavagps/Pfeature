@@ -5,7 +5,7 @@ Pfeature is developed for computing wide range of protein and peptides features 
 1: Standalone for calculating composition based features:
 *===============================================================================<br>
 **Important: To run this script 'Data' folder should be in the same directory.** <br>
-=================================================================================*
+=================================================================================*<br>
 Minimum USAGE: Minimum ussage is "pfeature_comp.py -i protein.fa" where protein.fa is a input fasta file. This will calculate the amino acid composition of the seqeunces provided in the fasta file. It will use other parameters by default. It will save output in "pfeature_result.csv" in CSV (comma seperated variables).
 
 #Full Usage: Following is complete list of all options, you may get these options by "pfeature_comp.py -h"
@@ -15,6 +15,11 @@ usage: pfeature_comp.py [-h] -i INPUT [-o OUTPUT]
                         [-rn REST_N] [-rc REST_C] [-s SPLIT] [-d LAG]
                         [-w WEIGHT] [-t PWEIGHT]
 
+* `iLearn-protein-basic.py` Extracting 37 different types of feature descriptors for protein sequences.
+* `iLearn-protein-PseKRAAC.py` Extracting the 16 types of pseudo K-tuple reduced amino acid composition (PseKRAAC) feature for protein sequence.
+* `iLearn-nucleotide-basic.py` Extracting 14 different types of feature descriptors for nucleotide sequences.
+* `iLearn-nucleotide-acc.py` Extracting 6 different types of autocorrelation descriptors for nucleotide sequences.
+* `iLearn-nucleotide-Pse.py` Extracting 6 different types of pseudo-k-tuple composition descriptors for nucleotide sequences.
 optional arguments:
   -h, --help            show this help message and exit
   -i INPUT, --input INPUT
