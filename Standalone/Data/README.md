@@ -1,7 +1,7 @@
 ## Introduction:
 Pfeature is a package for computing wide range of protein and peptides features from their amino acid
 sequence and structure.<br>
-###It has the following five major modules for computing protein features based on
+It has the following five major modules for computing protein features based on
 i)  Composition
 ii) Binary profiles,
 iii)  Evolutionary information
