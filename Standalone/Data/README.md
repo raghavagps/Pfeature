@@ -5,7 +5,7 @@ sequence. It has the following five major modules for computing protein features
 ####
 <ul>
   <li>
-    <ol padding-left: 4em; start="666">
+    <ol start="1">
       <li>ha.</li>
     </ol>
   </li>
