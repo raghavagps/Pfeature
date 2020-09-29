@@ -1,3 +1,6 @@
+.markdown-body ol {
+    padding-left: 2em;
+}
 ## Standalone Package of Pfeature
 ### Introduction:
 Pfeature is a standalone software package for computing wide range of protein and peptides features from their amino acid
