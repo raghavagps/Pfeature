@@ -1,11 +1,9 @@
 # Standalone Package of Pfeature
 ## Introduction
 Pfeature is developed for computing wide range of protein and peptides features from their amino acid sequences, and structures. More information on Pfeature is available from its web server https://webs.iiitd.edu.in/raghava/pfeature. This page provide information about standalone version of Pfeature. This standalone contains three scripts, their description is as follows:
-      - pfeature_comp.py
-      - pfeature_bin.py
-      - pfeature_pssm.py
-      - Download *iLearn* by
-
+  - pfeature_comp.py
+  - pfeature_bin.py
+  - pfeature_pssm.py
 
 
 ## Pfeature Package Files
