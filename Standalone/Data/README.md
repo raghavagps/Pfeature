@@ -1,5 +1,5 @@
-## Standalone Package of Pfeature
-### Introduction:
+# Required Files
+-----------------
 Pfeature is a standalone software package for computing wide range of protein and peptides features from their amino acid
 sequence. It has the following five major modules for computing protein features based on:<br>
 <ul>
