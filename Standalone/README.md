@@ -52,7 +52,7 @@ OR
 python pfeature_bin.py -i protein.fa
 OR
 python pfeature_pssm.py -i protein.fa
----
+```
 
 ## Pfeature Package Files
 It contantain following files, brief description of these files are given below:
