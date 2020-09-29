@@ -6,8 +6,9 @@ Pfeature is developed for computing wide range of protein and peptides features 
   - `pfeature_pssm.py` : To calculated binary profile based features
   
 ## Full Usage
+* To learn about the full usage, run the following command:
 ```sh
-
+python pfeature_comp.py -h
 ```
 
 ## Pfeature Package Files
