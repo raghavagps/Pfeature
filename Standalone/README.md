@@ -32,7 +32,6 @@ Job name: It allows users to choose the type of composition, the user want to ca
 
 N-terminal: It allows user to cut the specific number of residues from the N-terminal of the sequences.
 
-
 C-terminal: It allows user to cut the specific number of residues from the C-terminal of the sequences.
 
 NCT-terminal: It allows user to cut the specific number of residues from the N- and C-terminal of the sequences, and join them.
