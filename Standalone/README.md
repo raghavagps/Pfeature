@@ -18,8 +18,8 @@ Following output will be generated on running python "pfeature_bin.py -h" comman
 ![Screenshot](Screenshot.png)
 
 ### Parameters Description
-```sh
-Input File: It allow users to provide input in two format:
+---
+Input File: It allow users to provide input >in two format:
                 i.  FASTA format (standard) (e.g. protein.fa)
                 ii.  Simple Format, file should have sequences in a single line in single letter code (eg. protein.seq).
 
@@ -52,7 +52,7 @@ OR
 python pfeature_bin.py -i protein.fa
 OR
 python pfeature_pssm.py -i protein.fa
-```
+---
 
 ## Pfeature Package Files
 It contantain following files, brief description of these files are given below:
