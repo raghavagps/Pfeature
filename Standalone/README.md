@@ -14,9 +14,7 @@ python pfeature_bin.py -h
 OR
 python pfeature_pssm.py -h
 ```
-```sh
-![Screenshot]
-```
+
 
 ## Pfeature Package Files
 It contantain following files, brief description of these files are given below:
