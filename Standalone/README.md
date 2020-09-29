@@ -8,9 +8,11 @@ Pfeature is developed for computing wide range of protein and peptides features 
 ## Full Usage
 To learn about the full usage, run the following command:
 ```sh
-python pfeature_comp.py -h <br>
-# OR
-
+python pfeature_comp.py -h
+OR
+python pfeature_bin.py -h
+OR
+python pfeature_pssm.py -h
 ```
 
 ## Pfeature Package Files
