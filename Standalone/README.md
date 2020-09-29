@@ -4,7 +4,6 @@ Pfeature is developed for computing wide range of protein and peptides features 
 
 
 ## Pfeature Packakage Files
-=======================
 It contantain following files, brief description of these files are given below:
 
 * `LICENSE`                  : License information
