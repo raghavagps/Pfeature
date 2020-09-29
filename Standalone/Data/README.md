@@ -4,10 +4,8 @@ Pfeature is a standalone software package for computing wide range of protein an
 sequence. It has the following five major modules for computing protein features based on:<br>
 ####
 <ul>
-  <li>
       <li>Composition</li>
       <li>Binary profiles</li>
-  </li>
 </ul>
 i.      Composition
 ii.      Binary profiles
