@@ -4,6 +4,7 @@ Pfeature is developed for computing wide range of protein and peptides features 
       - pfeature_comp.py
       - pfeature_bin.py
       - pfeature_pssm.py
+      - Download *iLearn* by
 
 
 
