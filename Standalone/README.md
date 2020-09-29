@@ -19,8 +19,8 @@ Following output will be generated on running python "pfeature_bin.py -h" comman
 
 ### Parameters Description
 * `Input File`: It allow users to provide input in two format:<br>
-                  -\tFASTA format (standard) (e.g. protein.fa)<br>
-                  -\tSimple Format, file should have sequences in a single line in single letter code (eg. protein.seq).
+                i.  FASTA format (standard) (e.g. protein.fa)<br>
+                ii.  Simple Format, file should have sequences in a single line in single letter code (eg. protein.seq).
 
 * ``Output File``: Program will save result in CSV format, in the provided filename.
                 If user do not provide output file name, it will be stored in pfeature_results.csv.
