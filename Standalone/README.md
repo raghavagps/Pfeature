@@ -217,24 +217,24 @@ Pfeature Packakage Files
 =======================
 It contantain following files, brief description of these files are given below:
 
-LICENSE                  : License information
+* `LICENSE`                  : License information
 
-README.md                : This file provide information about this package
+* `README.txt`               : This file provide information about this package
 
-pfeature_comp.py         : Python program to calculate composition based features
+* `pfeature_comp.py`         : Python program to calculate composition based features
 
-pfeature_bin.py          : Python program to calculate binary profile based features
+* `pfeature_bin.py`          : Python program to calculate binary profile based features
 
-pfeature_pssm.py         : Python program to calculate pssm profile based features
+* `pfeature_pssm.py`         : Python program to calculate pssm profile based features
 
-protein.seq              : Example file contain protein sequences in simple format
+* `protein.seq`              : Example file contain protein sequences in simple format
 
-protein.fa               : Example file contain protein sequences in FASTA format
+* `protein.fa`               : Example file contain protein sequences in FASTA format
 
-Data                     : This folder contains the files required to calcuate the composition and binary profile based features.
+* `Data `                    : This folder contains the files required to calcuate the composition and binary profile based features.
 
-envfile                  : This file contains the path information required to run the pfeature_pssm.py script.
+* `envfile`                  : This file contains the path information required to run the pfeature_pssm.py script.
 
-Pfeature_Descriptors.pdf : This file comprises of description of the header of output files, which is generated using the aforementioned scripts.
+* `Pfeature_Descriptors.pdf` : This file comprises of description of the header of output files, which is generated using the aforementioned scripts.
 
-Requirement.txt          : This file consists of commands and pre-requisite to run the aforementioned scripts.
+* `Requirement.txt`          : This file consists of commands and pre-requisite to run the aforementioned scripts.
