@@ -217,9 +217,9 @@ Pfeature Packakage Files
 =======================
 It contantain following files, brief description of these files are given below:
 
-* `LICENSE`                  : License information
+LICENSE                  : License information
 
-* `README.txt`                : This file provide information about this package
+README.md                : This file provide information about this package
 
 pfeature_comp.py         : Python program to calculate composition based features
 
