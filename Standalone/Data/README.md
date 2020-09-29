@@ -9,9 +9,13 @@ sequence. It has the following five major modules for computing protein features
       <li>Structure</li>
       <li>Pattern</li>
 </ul>
-We have developed number of forms of Pfeature that include: i) A web server
-that uses Pfeature functions via web interface from https://webs.iiitd.edu.in/raghava/pfeature/ ; ii) Standalone version of Pfeature;
-iii) Library of python for Pfeature and iv) Python scripts for computing features.
+We have developed number of forms of Pfeature that include: 
+<ul>
+      <li>A web server that uses Pfeature functions via web interface from https://webs.iiitd.edu.in/raghava/pfeature/ </li>
+      <li>Standalone version of Pfeature </li>
+      <li>Library of python for Pfeature</li>
+      <li>Python scripts for computing features</li>
+      </ul>
 
 This is a standalone version of Pfeature (executables), we have generate executables of Pfeature that can be executed on different platform.
 
