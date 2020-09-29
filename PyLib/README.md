@@ -9,8 +9,8 @@ Pfeature is a standalone software package for computing wide range of protein an
   - Evolutionary information
   - Structure
   - Pattern
-  <br>
-We have developed number of forms of Pfeature that include:
+  
+  We have developed number of forms of Pfeature that include:
   - A web server that uses Pfeature functions via web interface from https://webs.iiitd.edu.in/raghava/pfeature
   - Standalone version of Pfeature
   - Library of python for Pfeature and iv) Python scripts for computing features.
