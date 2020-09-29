@@ -8,18 +8,13 @@ Pfeature is developed for computing wide range of protein and peptides features 
 =================================================================================*<br>
 Minimum USAGE: Minimum ussage is "pfeature_comp.py -i protein.fa" where protein.fa is a input fasta file. This will calculate the amino acid composition of the seqeunces provided in the fasta file. It will use other parameters by default. It will save output in "pfeature_result.csv" in CSV (comma seperated variables).
 
-#Full Usage: Following is complete list of all options, you may get these options by "pfeature_comp.py -h"
-usage: pfeature_comp.py [-h] -i INPUT [-o OUTPUT]
-                        [-j {AAC,DPC,TPC,ATC,BTC,PCP,AAI,RRI,PRI,DDR,SEP,SER,SPC,ACR,CTC,CeTD,PAAC,APAAC,QSO,SOC,ALLCOMP}]
-                        [-n N_TERMINAL] [-c C_TERMINAL] [-nct NC_TERMINAL]
-                        [-rn REST_N] [-rc REST_C] [-s SPLIT] [-d LAG]
-                        [-w WEIGHT] [-t PWEIGHT]
-
-* `iLearn-protein-basic.py` Extracting 37 different types of feature descriptors for protein sequences.
-* `iLearn-protein-PseKRAAC.py` Extracting the 16 types of pseudo K-tuple reduced amino acid composition (PseKRAAC) feature for protein sequence.
-* `iLearn-nucleotide-basic.py` Extracting 14 different types of feature descriptors for nucleotide sequences.
-* `iLearn-nucleotide-acc.py` Extracting 6 different types of autocorrelation descriptors for nucleotide sequences.
-* `iLearn-nucleotide-Pse.py` Extracting 6 different types of pseudo-k-tuple composition descriptors for nucleotide sequences.
+### Full Usage: Following is complete list of all options, you may get these options by "pfeature_comp.py -h"
+usage: pfeature_comp.py [-h] -i INPUT [-o OUTPUT]<br>
+                        [-j {AAC,DPC,TPC,ATC,BTC,PCP,AAI,RRI,PRI,DDR,SEP,SER,SPC,ACR,CTC,CeTD,PAAC,APAAC,QSO,SOC,ALLCOMP}]<br>
+                        [-n N_TERMINAL] [-c C_TERMINAL] [-nct NC_TERMINAL] <br>
+                        [-rn REST_N] [-rc REST_C] [-s SPLIT] [-d LAG]<br>
+                        [-w WEIGHT] [-t PWEIGHT] <br
+			
 optional arguments:
   -h, --help            show this help message and exit
   -i INPUT, --input INPUT
