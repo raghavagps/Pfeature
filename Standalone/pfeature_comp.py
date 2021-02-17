@@ -1831,7 +1831,7 @@ def ctd(file,out):
     zz.columns = head
     #zz.to_csv(filename+".ctd_comp", index=None, encoding='utf-8')
     head2 = []
-    header2 = ['CeTD_11','CeTD_12','CeTD_1-3','CeTD_21','CeTD_22','CeTD_23','CeTD_31','CeTD_32','CeTD_33']
+    header2 = ['CeTD_11','CeTD_12','CeTD_13','CeTD_21','CeTD_22','CeTD_23','CeTD_31','CeTD_32','CeTD_33']
     for i in header2:
         for j in ('HB','VW','PO','PZ','CH','SS','SA'):
             head2.append(i+'_'+str(j))
@@ -3466,7 +3466,7 @@ if Job == 'CTC' or Job == 'ALLCOMP':
         ctc_split('sam_input.csv',sp,result_filename)
         ctc_split('sam_input.csv',sp,'sam_allcomp.ctc_st')
         os.remove('sam_input.csv')
-if Job == 'CeTD' or Job == 'ALLCOMP':
+if Job == 'CETD' or Job == 'ALLCOMP':
     if (nter == 0) and (cter == 0) and (nrest == 0) and (crest == 0) and (sp == 0) and (ncter == 0) and (ncrest == 0):
         ctd(seq,result_filename)
         ctd(seq,'sam_allcomp.ctd')
