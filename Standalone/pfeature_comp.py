@@ -1064,7 +1064,7 @@ def SE_residue_level(filename,out):
         for key, value in my_list.items():
              for j in range(len(C)):
                 if key == C[j]:
-                    my_list[key] = round(((F[j]/length)* math.log(F[j]/length, 2)),3)
+                    my_list[key] = -round(((F[j]/length)* math.log(F[j]/length, 2)),3)
         GH.append(list(my_list.values()))
     file= open(out,'w', newline='')#output file
     with file:
