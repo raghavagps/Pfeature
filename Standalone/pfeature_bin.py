@@ -1381,4 +1381,3 @@ filelist=glob.glob("sam_allbin*")
 for file_2 in filelist:
     os.remove(file_2)
 os.remove(file_output)
-os.remove('sam_input.csv')
