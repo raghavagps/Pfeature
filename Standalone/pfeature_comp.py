@@ -675,10 +675,7 @@ def RAAC(file,out):
     filename, file_extension = os.path.splitext(file)
     df = pd.read_csv(file, header = None)
     df1 = pd.DataFrame(df[0].str.upper())
-    count = 0
-    cc = []
     i = 0
-    x = 0
     temp = pd.DataFrame()
     f = open(out,'w')
     sys.stdout = f
@@ -686,6 +683,8 @@ def RAAC(file,out):
     for q in range(0,len(df1)):
         while i < len(std):
             cc = []
+	    count = 0
+	    x = 0
             for j in df1[0][q]:
                 if j == std[i]:
                     count += 1
@@ -716,10 +715,7 @@ def RAAC_split(file,n,out):
     filename, file_extension = os.path.splitext(file)
     file1 = split(file,n)
     data = file1
-    count = 0
-    cc = []
     i = 0
-    x = 0
     temp = pd.DataFrame()
     f = open("sam.raac_split",'w')
     sys.stdout = f
@@ -728,6 +724,8 @@ def RAAC_split(file,n,out):
         mm = data[0][q]
         while i < len(std):
             cc = []
+	    count = 0
+	    x = 0
             for j in mm:
                 if j == std[i]:
                     count += 1
