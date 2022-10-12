@@ -670,7 +670,7 @@ def pcp_split(file,v,out):
     df5 = round(df5,2)
     df5.to_csv(out,index=None)
     os.remove('tempfile_out')
-###############################RRI#################################
+################################################################
 def RAAC(file,out):
     filename, file_extension = os.path.splitext(file)
     df = pd.read_csv(file, header = None)
@@ -698,8 +698,8 @@ def RAAC(file,out):
                             cc[x]=0
                 x += 1
             cc1 = [e for e in cc if e!= 0]
-            cc = [e*e for e in cc if e != 0]
-            zz= sum(cc)
+            cc2 = [e*e for e in cc if e != 0]
+            zz= sum(cc2)
             zz1 = sum(cc1)
             if zz1 != 0:
                 zz2 = zz/zz1
@@ -739,8 +739,8 @@ def RAAC_split(file,n,out):
                             cc[x]=0
                 x += 1
             cc1 = [e for e in cc if e!= 0]
-            cc = [e*e for e in cc if e != 0]
-            zz= sum(cc)
+            cc2 = [e*e for e in cc if e != 0]
+            zz= sum(cc2)
             zz1 = sum(cc1)
             if zz1 != 0:
                 zz2 = zz/zz1
