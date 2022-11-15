@@ -45,12 +45,12 @@ def pssm_1(x):
     if nm == 'N1':
         if type(x) is str:
             return x
+        elif x < -700:
+            return 0
         elif x:
             return (1/(1+(2.7182)**(-x)))
-        elif x == -32768:
-             return 0
         else:
-            return
+            return x
     if nm == 'N2':
         a = 1000
         b = -1000
