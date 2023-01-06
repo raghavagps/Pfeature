@@ -37,4 +37,4 @@ It has been tested on wide range of platforms that include Apple MAC, Windows an
 3. cd pfeature_standalone <br>
 
 # Reference
-<a href="https://pubmed.ncbi.nlm.nih.gov/36251780/">Pande et al (2022) Pfeature: A Tool for Computing Wide Range of Protein Features <br>and Building Prediction Models. J Comput Biol. 2022 Oct 13. doi: 10.1089/cmb.2022.0241.</a>
+Pande et al (2022) Pfeature: A Tool for Computing Wide Range of Protein Features <br>and Building Prediction Models. <a href="https://pubmed.ncbi.nlm.nih.gov/36251780/">J Comput Biol. 2022 Oct 13. doi: 10.1089/cmb.2022.0241.</a>
