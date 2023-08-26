@@ -12,6 +12,15 @@ One can read more about subroutines developed under Pfeature to compute wide ran
 A web server for computing wide range of protein and peptides features from their amino acid sequences. Following are main menus for computing features; i) Composition-based features, ii) Binary profile of sequences, iii) evolutionary information based features, iv) structural descriptors,and v) pattern based descriptors, for a group of protein/peptide sequences. Additionally, users will also be able to generate these features for sub-parts of protein/peptide sequences. Pfeature will be helpful to annotate structure, function and therapeutic properties of proteins/peptides.
 
 **Available from URL: https://webs.iiitd.edu.in/raghava/pfeature/**
+## PIP Installation
+PIP version is also available for easy installation and usage of this tool. The following command is required to install the package 
+```
+pip install pfeature
+```
+To know about the available option for the pip package, type the following command:
+```
+pfeature -h
+```
 
 ### Installation of Pfeature Library
 
