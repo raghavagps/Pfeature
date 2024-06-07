@@ -770,54 +770,27 @@ def RAAC_split(file,n,out):
     os.remove('sam.raac_split')
 ##########################################PRI###########################
 PCP= pd.read_csv('Data/PhysicoChemical.csv', header=None) #Our reference table for properties
-headers_1 = ['PRI_PC','PRI_NC','PRI_NE','PRI_PO','PRI_NP','PRI_AL','PRI_CY','PRI_AR','PRI_AC','PRI_BS','PRI_NE_pH','PRI_HB','PRI_HL','PRI_NT','PRI_HX','PRI_SC','PRI_SS_HE','PRI_SS_ST','PRI_SS_CO','PRI_SA_BU','PRI_SA_EX','PRI_SA_IN','PRI_TN','PRI_SM','PRI_LR'];
+headers_1 = ['PRI_PC','PRI_NC','PRI_NE','PRI_PO','PRI_NP','PRI_AL','PRI_CY','PRI_AR','PRI_AC','PRI_BS','PRI_NE_pH','PRI_HB','PRI_HL','PRI_NT','PRI_HX','PRI_SC','PRI_SS_HE','PRI_SS_ST','PRI_SS_CO','PRI_SA_BU','PRI_SA_EX','PRI_SA_IN','PRI_TN','PRI_SM','PRI_LR']
+
+# Amino acid encoding dictionary
+amino_acid_dict = {
+    'A': 0, 'C': 1, 'D': 2, 'E': 3, 'F': 4,
+    'G': 5, 'H': 6, 'I': 7, 'K': 8, 'L': 9,
+    'M': 10, 'N': 11, 'P': 12, 'Q': 13, 'R': 14,
+    'S': 15, 'T': 16, 'V': 17, 'W': 18, 'Y': 19
+}
 def encode(peptide):
-    l=len(peptide);
-    encoded=np.zeros(l);
-    for i in range(l):
-        if(peptide[i]=='A'):
-            encoded[i] = 0;
-        elif(peptide[i]=='C'):
-            encoded[i] = 1;
-        elif(peptide[i]=='D'):
-            encoded[i] = 2;
-        elif(peptide[i]=='E'):
-            encoded[i] = 3;
-        elif(peptide[i]=='F'):
-            encoded[i] = 4;
-        elif(peptide[i]=='G'):
-            encoded[i] = 5;
-        elif(peptide[i]=='H'):
-            encoded[i] = 6;
-        elif(peptide[i]=='I'):
-            encoded[i] = 7;
-        elif(peptide[i]=='K'):
-            encoded[i] = 8;
-        elif(peptide[i]=='L'):
-            encoded[i] = 9;
-        elif(peptide[i]=='M'):
-            encoded[i] = 10;
-        elif(peptide[i]=='N'):
-            encoded[i] = 11;
-        elif(peptide[i]=='P'):
-            encoded[i] = 12;
-        elif(peptide[i]=='Q'):
-            encoded[i] = 13;
-        elif(peptide[i]=='R'):
-            encoded[i] = 14;
-        elif(peptide[i]=='S'):
-            encoded[i] = 15;
-        elif(peptide[i]=='T'):
-            encoded[i] = 16;
-        elif(peptide[i]=='V'):
-            encoded[i] = 17;
-        elif(peptide[i]=='W'):
-            encoded[i] = 18;
-        elif(peptide[i]=='Y'):
-            encoded[i] = 19;
-        else:
-            print(peptide[i], ' is a wrong residue!');
-    return encoded;
+    # Use a list comprehension for fast lookup
+    encoded = np.array([amino_acid_dict.get(aa, -1) for aa in peptide])
+    
+    # Check for invalid residues
+    if -1 in encoded:
+        invalid_residues = [peptide[i] for i in range(len(peptide)) if encoded[i] == -1]
+        for residue in invalid_residues:
+            print(residue, 'is a wrong residue!')
+    
+    return encoded
+
 def lookup_1(peptide,featureNum):
     l=len(peptide);
     peptide = list(peptide);
@@ -827,62 +800,45 @@ def lookup_1(peptide,featureNum):
     for i in range(l):
         out.append(PCP[peptide_num[i]][featureNum]);
     return out;
-def binary_profile_1(file,featureNumb):
-    if(type(file) == str):
-        seq = pd.read_csv(file,header=None, sep=',');
-        seq=seq.T
-        seq[0].values.tolist()
-        seq=seq[0];
+
+def binary_profile_1(file, featureNumb):
+    if isinstance(file, str):
+        seq = pd.read_csv(file, header=None, sep=',')[0].str.upper().tolist()
     else:
-        seq  = file;
-    l = len(seq);
-    bin_prof = [];
-    for i in range(0,l):
-        temp = lookup_1(seq[i],featureNumb);
-        bin_prof.append(temp);
-    return bin_prof;
-def repeats(file,out123):
-    if(type(file) == str):
-        seq = pd.read_csv(file,header=None, sep=',');
-        #seq=seq.T
-        seq[0].values.tolist()
-        seq=seq[0];
-    else:
-        seq  = file;
-    seq=[seq[i].upper() for i in range(len(seq))]
-    dist =[];
-    dist.append(headers_1);
-    l = len(seq);
-    for i in range(l):
-        temp=[];
+        seq = file    
+    bin_prof = [lookup_1(peptide, featureNumb) for peptide in seq]
+    
+    return bin_prof
+
+def repeats(file, out123):
+    seq1 = pd.read_csv(file, header=None)
+    seq = seq1[0].tolist()
+    dist = [headers_1]
+    
+    for peptide in seq:
+        temp = []
         for j in range(25):
-            bin_prof = binary_profile_1(seq, j);
-            if(j>=25):
-                print('Error! Feature Number must be between 0-24');
-                break;
-            k=0;
-            num=0;
-            denom=0;
-            ones=0;
-            zeros=0;
-            for j in range(len(bin_prof[i])):
-                if(bin_prof[i][j]==0):
-                    num+=k*k;
-                    denom+=k;
-                    k=0;
-                    zeros+=1;
-                elif(j==len(bin_prof[i])-1):
-                    k+=1;
-                    num+=k*k;
-                    denom+=k;
+            bin_prof = binary_profile_1([peptide], j)[0]  # Get the profile for the current feature number
+            k, num, denom, ones, zeros = 0, 0, 0, 0, 0
+            
+            # Calculate the required values
+            for idx, val in enumerate(bin_prof):
+                if val == 0:
+                    num += k * k
+                    denom += k
+                    k = 0
+                    zeros += 1
                 else:
-                    k+=1;
-                    ones+=1;
-            if(ones!=0):
-                answer = num/(ones*ones)
-                temp.append(round(num/(ones*ones),2));
-            elif(ones==0):
-                temp.append(0);
+                    k += 1
+                    ones += 1
+                
+                if idx == len(bin_prof) - 1 and val != 0:
+                    num += k * k
+                    denom += k
+            if ones != 0:
+                temp.append(round(num / (ones * ones), 2))
+            else:
+                temp.append(0)
         dist.append(temp)
     out = pd.DataFrame(dist)
     file1 = open(out123,'w')
