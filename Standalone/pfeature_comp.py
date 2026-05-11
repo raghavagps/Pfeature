@@ -2139,24 +2139,12 @@ def readseq(file,out):
         for i in range (1,len(seq)+1):
             seqid.append("Seq_"+str(i))
     for i in seq:
-        if 'B' in i:
+	NNAA = 'BJOUZX' # Non-natural amino acids
+        for j in NNAA:
+	    if j in i
             print('\nError: The input sequences contain non-natural amino acids. Kindly check the sequence.\n')
-            sys.exit()
-        if 'J' in i:
-            print('\nError: The input sequences contain non-natural amino acids. Kindly check the sequence.\n')
-            sys.exit()
-        if 'O' in i:
-            print('\nError: The input sequences contain non-natural amino acids. Kindly check the sequence.\n')
-            sys.exit()
-        if 'U' in i:
-            print('\nError: The input sequences contain non-natural amino acids. Kindly check the sequence.\n')
-            sys.exit()
-        if 'Z' in i:
-            print('\nError: The input sequences contain non-natural amino acids. Kindly check the sequence.\n')
-            sys.exit()
-        if 'X' in i:
-            print('\nError: The input sequences contain non-natural amino acids. Kindly check the sequence.\n')
-            sys.exit()
+            print(f'Sequence (contains {j}): {i}')
+	    sys.exit()
     df4 = pd.DataFrame(seq)
     df4.to_csv(out,index=None,header=False)
 ##############################################################################
